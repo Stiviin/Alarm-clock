@@ -10,7 +10,7 @@ pygame.mixer.init()
 alarms = []
 
 def play_sound():
-    pygame.mixer.music.load("alarm.mp3")  # put your MP3 file in same folder
+    pygame.mixer.music.load("classic-alarm.wav")  # put your MP3 file in same folder
     pygame.mixer.music.play()
 
 def check_alarms():
